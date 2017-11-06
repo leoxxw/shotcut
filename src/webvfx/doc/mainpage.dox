@@ -1,0 +1,34 @@
+// Copyright (c) 2011 Hewlett-Packard Development Company, L.P. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+/*!
+@mainpage
+
+%WebVfx is a video effects framework that allows video effects
+(filters, transitions etc.) to be authored using web technologies
+(HTML, CSS, JavaScript, WebGL etc.) or with
+<a href="http://qt-project.org/doc/latest/qtquick-index.html/">Qt Quick</a>
+QML (a declarative CSS and JavaScript like language).
+See @ref effects_authoring for documentation and samples.
+
+%WebVfx includes plugins for the
+<a href="http://www.mltframework.org/">MLT</a>
+open source multimedia framework.
+See @ref mlt for information on how to use %WebVfx with MLT.
+
+Sample effects included with the distribution, and videos
+rendered using them with MLT can be viewed here:
+@li @ref examples/transition-demo3d.qml "demo/examples/transition-demo3d.qml"
+@li @ref examples/transition-demo.html "demo/examples/transition-demo.html"
+@li @ref examples/transition-shader-crosszoom.html "demo/examples/transition-shader-crosszoom.html"
+@li @ref examples/transition-shader-pagecurl.html "demo/examples/transition-shader-pagecurl.html"
+@li @ref examples/producer-demo.html "demo/examples/producer-demo.html"
+@li @ref examples/filter-demo.html "demo/examples/filter-demo.html"
+@li @ref examples/filter-demo.qml "demo/examples/filter-demo.qml"
+
+%WebVfx is hosted at github,
+see the <a href="https://github.com/mltframework/webvfx#readme">README</a>
+there for build instructions.
+
+%WebVfx is licensed using a BSD-style @ref license.
+ */

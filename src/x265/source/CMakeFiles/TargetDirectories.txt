@@ -1,0 +1,5 @@
+/root/shotcut/src/x265/source/CMakeFiles/clean-generated.dir
+/root/shotcut/src/x265/source/common/CMakeFiles/common.dir
+/root/shotcut/src/x265/source/encoder/CMakeFiles/encoder.dir
+/root/shotcut/src/x265/source/CMakeFiles/x265-shared.dir
+/root/shotcut/src/x265/source/CMakeFiles/x265-static.dir

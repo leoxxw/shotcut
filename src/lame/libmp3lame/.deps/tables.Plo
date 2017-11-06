@@ -1,0 +1,519 @@
+tables.lo: tables.c ../config.h machine.h version.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/stdio.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/crtdefs.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_mac.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_secapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/vadefs.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sdks/_mingw_directx.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sdks/_mingw_ddk.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_print_push.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_off_t.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/swprintf.inl \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sec_api/stdio_s.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_print_pop.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/assert.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/stdlib.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include-fixed/limits.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include-fixed/syslimits.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/limits.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sec_api/stdlib_s.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/malloc.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/string.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sec_api/string_s.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/math.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/ctype.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/errno.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/fcntl.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/io.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sec_api/io_s.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sys/types.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sys/stat.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_stat64.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/inttypes.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/stdint.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/stdint.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/stddef.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/stddef.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/windows.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sdkddkver.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/excpt.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/stdarg.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/stdarg.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_stdarg.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/windef.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/minwindef.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winapifamily.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/specstrings.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sal.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winnt.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_unicode.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/apiset.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/psdk_inc/intrin-impl.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/basetsd.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/guiddef.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/x86intrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/ia32intrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/mmintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/xmmintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/mm_malloc.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/emmintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/pmmintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/tmmintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/ammintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/smmintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/popcntintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/wmmintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/immintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avxintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx2intrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512fintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512erintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512pfintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512cdintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512vlintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512bwintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512dqintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512vlbwintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512vldqintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512ifmaintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512ifmavlintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512vbmiintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512vbmivlintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/shaintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/lzcntintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/bmiintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/bmi2intrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/fmaintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/f16cintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/rtmintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/xtestintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/mm3dnow.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/prfchwintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/fma4intrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/xopintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/lwpintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/tbmintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/rdseedintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/fxsrintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/xsaveintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/xsaveoptintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/adxintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/clwbintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/pcommitintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/clflushoptintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/xsavesintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/xsavecintrin.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/pshpack4.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/poppack.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/pshpack4.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/pshpack2.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/poppack.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/pshpack2.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/pshpack8.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/pshpack8.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/ktmtypes.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winbase.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/apisetcconv.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/minwinbase.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/bemapiset.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/debugapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/errhandlingapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/fibersapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/fileapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/handleapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/heapapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/ioapiset.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/interlockedapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/jobapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/libloaderapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/memoryapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/namedpipeapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/namespaceapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/processenv.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/processthreadsapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/processtopologyapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/profileapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/realtimeapiset.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/securityappcontainer.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/securitybaseapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/synchapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sysinfoapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/systemtopologyapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/threadpoolapiset.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/threadpoollegacyapiset.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/utilapiset.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/wow64apiset.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winerror.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/fltwinerror.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/timezoneapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/wingdi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/pshpack1.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winuser.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/tvout.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winnls.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/datetimeapi.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/stringapiset.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/wincon.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winver.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winreg.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/reason.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winnetwk.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/wnnc.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/virtdisk.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/stralign.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sec_api/stralign_s.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winsvc.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/mcx.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/imm.h \
+ /opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/float.h \
+ /opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/float.h \
+ ../include/lame.h tables.h
+
+../config.h:
+
+machine.h:
+
+version.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/stdio.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/crtdefs.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_mac.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_secapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/vadefs.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sdks/_mingw_directx.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sdks/_mingw_ddk.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_print_push.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_off_t.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/swprintf.inl:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sec_api/stdio_s.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_print_pop.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/assert.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/stdlib.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include-fixed/limits.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include-fixed/syslimits.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/limits.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sec_api/stdlib_s.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/malloc.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/string.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sec_api/string_s.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/math.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/ctype.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/errno.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/fcntl.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/io.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sec_api/io_s.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sys/types.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sys/stat.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_stat64.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/inttypes.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/stdint.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/stdint.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/stddef.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/stddef.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/windows.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sdkddkver.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/excpt.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/stdarg.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/stdarg.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_stdarg.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/windef.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/minwindef.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winapifamily.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/specstrings.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sal.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winnt.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/_mingw_unicode.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/apiset.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/psdk_inc/intrin-impl.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/basetsd.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/guiddef.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/x86intrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/ia32intrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/mmintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/xmmintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/mm_malloc.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/emmintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/pmmintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/tmmintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/ammintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/smmintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/popcntintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/wmmintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/immintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avxintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx2intrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512fintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512erintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512pfintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512cdintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512vlintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512bwintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512dqintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512vlbwintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512vldqintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512ifmaintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512ifmavlintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512vbmiintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/avx512vbmivlintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/shaintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/lzcntintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/bmiintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/bmi2intrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/fmaintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/f16cintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/rtmintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/xtestintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/mm3dnow.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/prfchwintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/fma4intrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/xopintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/lwpintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/tbmintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/rdseedintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/fxsrintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/xsaveintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/xsaveoptintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/adxintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/clwbintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/pcommitintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/clflushoptintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/xsavesintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/xsavecintrin.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/pshpack4.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/poppack.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/pshpack4.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/pshpack2.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/poppack.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/pshpack2.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/pshpack8.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/pshpack8.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/ktmtypes.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winbase.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/apisetcconv.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/minwinbase.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/bemapiset.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/debugapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/errhandlingapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/fibersapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/fileapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/handleapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/heapapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/ioapiset.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/interlockedapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/jobapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/libloaderapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/memoryapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/namedpipeapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/namespaceapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/processenv.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/processthreadsapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/processtopologyapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/profileapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/realtimeapiset.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/securityappcontainer.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/securitybaseapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/synchapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sysinfoapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/systemtopologyapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/threadpoolapiset.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/threadpoollegacyapiset.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/utilapiset.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/wow64apiset.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winerror.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/fltwinerror.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/timezoneapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/wingdi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/pshpack1.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winuser.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/tvout.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winnls.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/datetimeapi.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/stringapiset.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/wincon.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winver.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winreg.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/reason.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winnetwk.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/wnnc.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/virtdisk.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/stralign.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/sec_api/stralign_s.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/winsvc.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/mcx.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/imm.h:
+
+/opt/mxe/gcc-5.1.0/usr/lib/gcc/x86_64-w64-mingw32.static/5.1.0/include/float.h:
+
+/opt/mxe/gcc-5.1.0/usr/x86_64-w64-mingw32.static/include/float.h:
+
+../include/lame.h:
+
+tables.h:

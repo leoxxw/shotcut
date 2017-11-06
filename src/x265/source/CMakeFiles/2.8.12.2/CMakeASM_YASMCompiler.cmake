@@ -1,0 +1,12 @@
+set(CMAKE_ASM_YASM_COMPILER "/usr/bin/yasm")
+set(CMAKE_ASM_YASM_COMPILER_ARG1 "")
+set(CMAKE_AR "/opt/mxe/gcc-5.1.0/usr/bin/x86_64-w64-mingw32.static-ar")
+set(CMAKE_RANLIB "/opt/mxe/gcc-5.1.0/usr/bin/x86_64-w64-mingw32.static-ranlib")
+set(CMAKE_LINKER "")
+set(CMAKE_ASM_YASM_COMPILER_LOADED 1)
+set(CMAKE_ASM_YASM_COMPILER_ID "")
+set(CMAKE_ASM_YASM_COMPILER_ENV_VAR "ASM_YASM")
+
+set(CMAKE_ASM_YASM_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)
+set(CMAKE_ASM_YASM_LINKER_PREFERENCE 0)
+

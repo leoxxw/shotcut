@@ -1,0 +1,6 @@
+/root/shotcut/shotcut/Shotcut/lib/libx265.a
+/root/shotcut/shotcut/Shotcut/include/x265.h
+/root/shotcut/shotcut/Shotcut/include/x265_config.h
+/root/shotcut/shotcut/Shotcut/lib/libx265.dll.a
+/root/shotcut/shotcut/Shotcut/bin/libx265.dll
+/root/shotcut/shotcut/Shotcut/lib/pkgconfig/x265.pc

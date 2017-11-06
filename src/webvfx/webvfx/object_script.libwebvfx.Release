@@ -1,0 +1,18 @@
+CREATE ../build/release/libwebvfx.a
+ADDMOD ../build/release/.obj/webvfx/content.o
+ADDMOD ../build/release/.obj/webvfx/content_context.o
+ADDMOD ../build/release/.obj/webvfx/effects.o
+ADDMOD ../build/release/.obj/webvfx/effects_impl.o
+ADDMOD ../build/release/.obj/webvfx/image.o
+ADDMOD ../build/release/.obj/webvfx/logger.o
+ADDMOD ../build/release/.obj/webvfx/parameters.o
+ADDMOD ../build/release/.obj/webvfx/qml_content.o
+ADDMOD ../build/release/.obj/webvfx/render_strategy.o
+ADDMOD ../build/release/.obj/webvfx/web_content.o
+ADDMOD ../build/release/.obj/webvfx/webvfx.o
+ADDMOD ../build/release/.obj/webvfx/qrc_resources.o
+ADDMOD ../build/release/.obj/webvfx/moc_content_context.o
+ADDMOD ../build/release/.obj/webvfx/moc_effects_impl.o
+ADDMOD ../build/release/.obj/webvfx/moc_qml_content.o
+ADDMOD ../build/release/.obj/webvfx/moc_web_content.o
+SAVE

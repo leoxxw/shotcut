@@ -1,0 +1,83 @@
+// Copyright (c) 2011 Hewlett-Packard Development Company, L.P. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+/*!
+@page mlt MLT Plugins
+
+%WebVfx implements producer, filter and transition plugin services for the
+<a href="http://www.mltframework.org/">MLT Framework</a>.
+The MLT service ID is @c webvfx and the service argument
+or @c resource property is the path to the HTML or QML effect implementation.
+
+MLT services are implemented as %WebVfx effects - see @ref effects_authoring.
+The pathname to the HTML or QML effects implementation can be provided
+as the service contructor argument, or specified using the @c resource
+property. e.g.
+@code
+melt -transition webvfx:/path/to/transition.html
+@endcode
+@code
+melt -transition webvfx resource=/path/to/transition.html
+@endcode
+
+@section mlt_panzoom Panzoom Producer Plugin
+
+%WebVfx also provides an image producer that implements a pan and zoom effect.
+This is similar to the MLT @c affine filter, but more efficient.
+The MLT service ID is @c webvfx.panzoom and the @c resource property
+is the source image to load.
+The @c geometry property holds the MLT geometry keyframe specifications.
+
+@section mlt_extra Extra Images
+
+Effects that use extra images (i.e. that register @c webvfx.ExtraImageType
+image names) accept an additional set of attributes of the form:
+<b>producer.</b><em>name</em><b>.</b><em>producer_attribute</em>.
+@li @em name - Name of the extra image. This is the name that was
+    tagged with @c webvfx.ExtraImageType.
+@li @em producer_attribute - Any valid producer attribute.
+    At a minimum the @c resource attribute must be specified.
+    @c in and @c out can also be specified (e.g. to extract a single
+    frame from a video). e.g. for an extra image named @c "foobar"
+    we might have:
+@code
+producer.foobar.resource=/some/file.mov
+producer.foobar.in=90
+producer.foobar.out=200
+@endcode
+
+The example
+@ref examples/transition-demo.html "demo/examples/transition-demo.html"
+transition uses an
+extra image named @c "backgroundImage":
+@dontinclude transition-demo.html
+@skip webvfx.imageTypeMap
+@until };
+
+The melt script example demo/mlt/mlt_transition_demo_html specifies
+the @c producer.backgroundImage.resource attribute for the transition:
+@include mlt_transition_demo_html
+
+@section mlt_demos Demos
+
+A set of bash scripts are provided to run @em melt with the sample
+effects. These are located in the @c demo/mlt directory and should
+be run in that directory.
+They are configurable through @c VFX_ prefixed environment variables.
+e.g. to run the @c mlt_transition_demo_html script, you can change
+the default source and target videos using @c VFX_SOURCE and @c VFX_TARGET.
+@code
+VFX_SOURCE=/videos/source.mov VFX_TARGET=/videos/target.mov ./mlt_transition_demo_html
+@endcode
+The demos default to using the SDL consumer, this can be changed to the avformat
+consumer by setting @c VFX_CONSUMER=consumer_av and setting @c VFX_OUTPUT
+to the path of the output QuickTime movie file to be created.
+
+On MacOS, you will need to build @c qmelt and set @c VFX_MELT=qmelt
+to run the demos.
+
+@htmlonly
+Each of the demos has been rendered as a video and can be previewed
+from the corresponding <a href="examples.html">example</a>.
+@endhtmlonly
+ */
